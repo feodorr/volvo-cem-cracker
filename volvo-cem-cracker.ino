@@ -894,7 +894,7 @@ void cemCrackPin (uint32_t maxBytes, bool verbose)
 
   /* number of PIN bytes remaining to find */
 
-  remainingBytes = PIN_LEN - maxBytes,
+  remainingBytes = PIN_LEN - maxBytes;
 
   /* show the result of the cracking */
 
